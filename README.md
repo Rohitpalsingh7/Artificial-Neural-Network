@@ -25,7 +25,7 @@ crosses the threashold value then regularization (dropout) is used to deactivate
 
 ## Results :
 
-1. Training accuracy with 10 CV: 85.31 %
-2. VAriance of 10 CV: 0.012
+1. Training accuracy with 10 CV: 85.56 %
+2. VAriance of 10 CV: 0.014
 3. Final predictions are probabilities so with a threashold value of 0.5, churn rates are predicted.
-4. Test accuracy : 84.30 %
+4. Test accuracy : 84.8 %
