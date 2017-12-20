@@ -5,7 +5,7 @@ ANN model is implemented using keras library in python and it used tensorflow ba
 
 ## Configuration of Clusters 
 
--- ANN tuning and model evaluation is done on High performance computing clusters (HPC). Configuration of the cluster is K40 with 2 GPUS. It has time limitation of 48 hours and terminate the job exceeding the defined time limit. 
+-- ANN tuning and model evaluation is done on High performance computing clusters (HPC). Configuration of the cluster is K40 with 2 GPUs. It has time limitation of 48 hours and terminate the job exceeding the defined time limit. 
 
 -- Clusters deployed over Red Hat Enterprise Linux 7.2
 
