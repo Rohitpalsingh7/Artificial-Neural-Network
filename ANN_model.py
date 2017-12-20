@@ -154,7 +154,6 @@ Estimated Salary : 50000 """
 
 #predict_new= classifier.predict(sc.transform(np.array([[0.0, 0, 600, 1, 40, 3, 60000, 2, 1,1, 50000]])))
 #predict_new=(predict_new>0.5)
-
 # Sequential model is used to initialize neural network as sequence of layers and Dense is used to add layer
 
 
