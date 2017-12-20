@@ -11,7 +11,7 @@ ANN model is implemented using keras library in python and it used tensorflow ba
 
 ## Steps used for predicting churn rates of customers :
 
-1. Performed hyperparameters tuning on two GPUS in succession to prevent load on one GPU.
+1. Performed hyperparameters tuning on two GPUs in succession to prevent load on one GPU.
 2. File 'Tuning.py' gives best hyperparameters based on accuracy metric. Used gridsearch with 10 cross fold validation to get the best hyperparameters. 
 3. Using the above best hyperparameters,  ANN is evaluated by 10 cross fold validation and mean accuracy and variance of 10 fold is computed. 
 4. VArinace indicates whether model is overfitted or not. I used threashold value of 0.05 valriance and if computed variance 
