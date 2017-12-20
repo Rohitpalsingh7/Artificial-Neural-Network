@@ -17,3 +17,15 @@ ANN model is implemented using keras library in python and it used tensorflow ba
 4. VArinace indicates whether model is overfitted or not. I used threashold value of 0.05 valriance and if computed variance 
 crosses the threashold value then regularization (dropout) is used to deactivate few neurons in hidden layer.
 5. Predicted churn rates on test set. 
+
+## Best Hyperparameters :
+
+1. {'batch_size': 32, 'units': 11, 'epochs': 300, 'optimizer': 'adam'}
+2. Adam is the stochastic gradient descend optimization algorithm. 
+
+## Results :
+
+1. Training accuracy with 10 CV: 85.31 %
+2. VAriance of 10 CV: 0.012
+3. Final predictions are probabilities so with a threashold value of 0.5, churn rates are predicted.
+4. Test accuracy : 84.30 %
