@@ -1,5 +1,5 @@
 # Artificial-Neural-Network
-Artificial neural network model to predict whether customer will leave the bank or not. 
+Artificial neural network model to predict whether customer will leave the bank or not. Architecture of ANN model consists of two hidden layers with 11 neurons each. 
 
 ANN model is implemented using keras library in python and it used tensorflow backend. 
 
