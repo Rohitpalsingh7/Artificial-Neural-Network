@@ -108,7 +108,7 @@ with tf.device('/gpu:0'):
 
 with tf.device('/gpu:1'):
     
-    if(variance_acc > 0.05) :    
+    if(variance_acc > 0.01) :    
     
         print("variance is high so building model using dropout.")
         classifier = Sequential()
